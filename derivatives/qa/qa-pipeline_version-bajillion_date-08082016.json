@@ -1,0 +1,13 @@
+{
+	'qa_pipeline_id': 'my pipeline',
+	'qa_pipeline_inputs': { 'scan': '/path/to/file',
+													'graph': '/path/to/file',
+													'param': 42,
+												},
+	'base_modalities': ['anat', 'func', 'dti'],
+	'operates_on_derivatives': False,
+	'metrics': { 'size': 42000000,
+							 'whatever': [8, 5, 3, 2, 1, 2, 2, 3, 5],
+							 'type': 'words, bro',
+						 },
+}
