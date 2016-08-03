@@ -1,5 +1,7 @@
 {
 	"qa_pipeline_id": "my pipeline",
+	"subj": 42,
+	"sesh": "test",
 	"qa_pipeline_inputs": {
 		"scan": "/path/to/file",
 		"graph": "/path/to/file",
